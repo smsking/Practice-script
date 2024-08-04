@@ -10,9 +10,11 @@ else
     echo "Your super user."
 fi
 
+#installing mysql
+
 dnf install mysql -y
 
-if [$? ne 0]
+if [ $? ne 0 ]
 then
     echo "MySQL installation is .....Failure"
     exit 1
@@ -20,9 +22,11 @@ else
     echo "MySQL installation is .....SUCCESS"
 fi
 
-dnf install mysql -y
+#installing git
 
-if [$? ne 0]
+dnf install git -y
+
+if [ $? ne 0 ]
 then
     echo "Git installation is .....Failure"
     exit 1
