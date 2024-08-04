@@ -7,4 +7,4 @@ Movies=["RRR","bhahubali","egga"]
 echo "First movie is: ${Movies[0]}"
 echo "Second movie is: ${Movies[1]}"
 echo "Third movie is: ${Movies[2]}"
-echo "All movie is: ${Movies[@]}"
+echo "All movie are: ${Movies[@]}"
