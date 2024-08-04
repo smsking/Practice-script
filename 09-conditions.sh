@@ -2,7 +2,7 @@
 
 Number=$5
 
-if [$Number lt 10]
+if [ $Number lt 10 ]
 then
     echo "The Given $Number is lesser than 10"
 else
