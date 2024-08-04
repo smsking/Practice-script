@@ -8,10 +8,10 @@ LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 VALIDATE(){
 if [ $1 -ne 0 ]
 then
-    echo"$2 is a Failure" >> "$LOGFILE"
+    echo "$2.....Failure" 
     exit 1
 else
-    echo"$2 is a Success" >> "$LOGFILE"
+    echo "$2.....Success" 
 fi
 }
 
