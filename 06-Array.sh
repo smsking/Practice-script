@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Movies=["RRR" "rangam" "egga"]
+Movies=("RRR" "Ringa" "king")
 
 #indexs for above are 0,1,2
 #index in list starts with 0
