@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Movies=("RRR" "Guntur karram" "Bhahubali")
+Movies=("RRR" "jawan" "Bhahubali")
 
 #indexs for above are 0,1,2
 #index in list starts with 0
