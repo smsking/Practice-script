@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# NUMBER=$5
+# NUMBER=5
 
 # if [ $NUMBER -gt 10 ]
 # then
@@ -11,8 +11,11 @@
 
 # # -gt, -lt, -eq, -ge, -le
 
-sai=8
 
+#declaring the variable
+sai=9
+
+#Referring the variables by  if conditions
 if [ $sai -le 20 ]
 then
     echo "The Given $sai is lessthan 20"
