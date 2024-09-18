@@ -13,7 +13,7 @@
 
 
 #declaring the variable
-sai=25
+sai=7
 
 #Referring the variables by  if conditions
 if [ $sai -le 20 ]
