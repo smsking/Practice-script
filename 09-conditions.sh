@@ -11,7 +11,7 @@
 
 # # -gt, -lt, -eq, -ge, -le
 
-sai=$8
+sai=8
 
 if [ $sai -le 20 ]
 then
