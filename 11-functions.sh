@@ -2,6 +2,7 @@
 
 USERID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
+#date is a format command "Date +%F"
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
@@ -23,10 +24,22 @@ else
     echo "Your super user."
 fi
 
-dnf install mysql -y &>>$LOGFILE
+dnf install mysql -y &>>$LOGFILE 
+#&>> is a redirection it saves the command output file if its success or error
 VALIDATE $? "installing sql" 
 
 dnf install git -y &>>$LOGFILE
 VALIDATE $? "installing git" 
+
+# Redirections
+# ----------
+# > --> by default only success output will be redirected...
+# 1 --> success
+# 2 --> Error
+# & --> Both success and error
+# >> --> append
+# there should be no space b/w & and >
+# &>> it saves both sucess and error output is redirected to given file(like logfile)
+
 
 
