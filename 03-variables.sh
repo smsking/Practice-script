@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #declaring variables
-person1=saikumar    #no place between = and value
-person2=naveen
+person1=srinu    #no place between = and value
+person2=ismail
 
 #refering variables
 echo $person1 :: Hi $person2 
