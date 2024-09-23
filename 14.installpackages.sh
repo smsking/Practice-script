@@ -10,6 +10,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
+#delacarling validation function
 VALIDATE(){
    if [ $1 -ne 0 ]
    then
